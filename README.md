@@ -2,6 +2,19 @@
 
 Welcome to the End-to-End Communication System repository! This project showcases the implementation of a comprehensive communication system using BladeRF and GNU Radio software. Whether you're interested in digital communication, encryption, or real-time audio transmission, this repository has something for you.
 
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Components](#components)
+    - [Digital Communication and Preamble Handling](#digital-communication-and-preamble-handling)
+    - [Encryption and Decryption](#encryption-and-decryption)
+    - [Real-Time Audio Transmission](#real-time-audio-transmission)
+4. [Getting Started](#getting-started)
+5. [Contributions](#contributions)
+6. [License](#license)
+7. [Contact](#contact)
+
 ## Overview
 
 The project focuses on designing and implementing a versatile communication system capable of transmitting and receiving various types of data. Leveraging the power of Software-Defined Radio (SDR) technology, it provides a platform for experimenting with different modulation techniques and signal processing algorithms.
