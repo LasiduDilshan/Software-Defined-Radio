@@ -20,15 +20,68 @@ The project focuses on designing and implementing a versatile communication syst
 
 This component manages digital communication between systems and handles preamble sequences.
 
-### Preamble Script (preamble.py):
+**Dependencies:**
 
-- Functions to add and remove preambles from files.
-- Detects and removes preambles at the beginning and end of files.
+Python 3.x
+Libraries: Crypto, base64
 
 ### Digital Communication (digital_com.py):
 
 - Manages digital communication between systems.
 - Provides functions for encoding and decoding digital data.
+
+- **Functionality:**
+
+   - Facilitates communication between systems using digital data encoding and decoding techniques.
+
+- **Encoding:**
+
+   - Provides functions to encode digital data into a format suitable for transmission.
+   - Utilizes encoding schemes such as base64 for efficient data representation.
+
+- **Decoding:**
+
+   - Offers functions to decode received digital data back into its original format.
+   - Ensures accurate retrieval of transmitted information.
+
+- **Data Integrity:**
+
+   - Implements mechanisms to maintain data integrity during transmission.
+   - Utilizes error detection and correction techniques to minimize data loss or corruption.
+
+- **Error Handling:**
+
+   - Incorporates error handling mechanisms to manage transmission errors and ensure reliable communication.
+   - Detects and addresses errors in transmitted data to maintain communication integrity.
+
+### Preamble Script (preamble.py):
+
+- Functions to add and remove preambles from files.
+- Detects and removes preambles at the beginning and end of files.
+
+- **Functionality:**
+
+   - Manages the insertion and removal of preamble sequences in transmitted data streams.
+   - Ensures synchronization and alignment between transmitting and receiving systems.
+
+- **Preamble Generation:**
+
+   - Generates preamble sequences to precede transmitted data.
+   - Incorporates unique patterns or signatures for easy detection and synchronization.
+
+- **Preamble Detection:**
+
+   - Implements algorithms to detect and extract preamble sequences from received data streams.
+   - Utilizes pattern matching or synchronization techniques to identify preamble boundaries.
+
+- **Synchronization:**
+
+   - Ensures synchronization between transmitting and receiving systems by aligning data streams based on detected preamble sequences.
+   - Facilitates accurate data reception and interpretation.
+
+**Integration:**
+- These components seamlessly integrate into the end-to-end communication system, enhancing data reliability, integrity, and synchronization.
+- Digital Communication and Preamble Handling modules work in conjunction with encryption, real-time transmission, and other system components to provide a comprehensive communication solution.
 
 ## 2. Encryption and Decryption
 
