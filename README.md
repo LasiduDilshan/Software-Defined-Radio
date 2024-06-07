@@ -22,8 +22,8 @@ This component manages digital communication between systems and handles preambl
 
 **Dependencies:**
 
-Python 3.x
-Libraries: Crypto, base64
+- Python 3.x
+- Libraries: Crypto, base64
 
 ### Digital Communication (digital_com.py):
 
@@ -105,9 +105,9 @@ This component focuses on transmitting audio data using analog technologies, ens
 
 **Dependencies:**
 
-Python 3.10.1.1
-GNU Radio 3.10.1.1
-PyQt5
+- Python 3.10.1.1
+- GNU Radio 3.10.1.1
+- PyQt5
 
 **Components:**
 
