@@ -87,5 +87,3 @@ The digital communication system is designed to transmit any type of data by enc
 ### Implementation
 
 The digital communication system implemented using the above scripts and flow graphs enables reliable transmission and reception of any type of data. The process involves reading data from a file, encoding and modulating it for transmission, handling the transmitted signal in a simulated channel, and finally receiving, demodulating, and decoding the data at the receiver end. The system ensures data integrity through the use of CRC and FEC, and visualizes the signal using QT GUI sinks.
-
-This detailed explanation covers the digital communication part of your project, illustrating how various GNU Radio blocks are utilized to achieve robust data transmission and reception using BladeRF.
