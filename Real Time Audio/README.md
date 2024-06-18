@@ -1,6 +1,6 @@
 ### Explanation of Real Time Voice Communication Using Analog Communication with GNU Radio and BladeRF
 
-This section details the first part of your software-defined network project, which focuses on real-time voice communication using analog communication. Below is a comprehensive explanation of the `real_time_fm.py` script and the corresponding `real_time_fm.grc` flow graph.
+This section details the real-time voice communication using analog communication. Below is a comprehensive explanation of the `real_time_fm.py` script and the corresponding `real_time_fm.grc` flow graph.
 
 ### Overview
 
@@ -328,4 +328,4 @@ This implementation enables real-time voice communication using analog FM modula
 
 ### Conclusion
 
-This section detailed the implementation and components of your real-time FM audio transmission system using GNU Radio and BladeRF. The provided explanations cover each block's purpose, connections, and how the overall system works to achieve real-time analog voice communication.
+This section detailed the implementation and components of real-time FM audio transmission system using GNU Radio and BladeRF. The provided explanations cover each block's purpose, connections, and how the overall system works to achieve real-time analog voice communication.
