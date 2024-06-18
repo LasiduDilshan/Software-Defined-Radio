@@ -1,6 +1,6 @@
 ### Explanation of Digital Communication for Any Type of Data Using GNU Radio and BladeRF
 
-This section focuses on the second part of your software-defined network project, which deals with digital communication for transmitting various types of data (image, audio, text, etc.). Below is a detailed explanation of the `strip_preamble.py`, `final3.py`, and `final3.grc` files, and their corresponding implementations.
+This section focuses on the digital communication for transmitting various types of data (image, audio, text, etc.). Below is a detailed explanation of the `strip_preamble.py`, `final3.py`, and `final3.grc` files, and their corresponding implementations.
 
 ### Overview
 
