@@ -98,19 +98,31 @@ This component manages digital communication between systems and handles preambl
 
 ## 2. Encryption and Decryption
 
-Python scripts utilizing the AES algorithm for file encryption and decryption.
+### Encryption (`encrypt.py`)
 
-### Encryption (encrypt.py):
+- **Purpose:** Encrypts a file using XOR operation.
+- **Key Range:** Uses a single-byte key (0-255).
+- **Key:** Fixed key `122` for XOR operation.
+- **Process:**
+  - Reads file as byte array.
+  - XORs each byte with the key.
+  - Writes encrypted data back to file.
 
-- Encrypts a file using the AES algorithm.
-- Pads the plaintext to ensure its length is a multiple of 16 bytes.
-- Adds a preamble to the ciphertext after encryption.
+### Decryption (`decrypt.py`)
 
-### Decryption (decrypt.py):
+- **Purpose:** Decrypts a file encrypted with XOR operation.
+- **Key Range:** Uses the same single-byte key (0-255) as encryption.
+- **Key:** Fixed key `122` for XOR operation.
+- **Process:**
+  - Reads encrypted file as byte array.
+  - XORs each byte with the key to decrypt.
+  - Writes decrypted data back to file.
 
-- Decrypts a file encrypted using the AES algorithm.
-- Removes the preamble and then decrypts the ciphertext.
-- Writes the decrypted data to a file.
+### Key Considerations:
+
+- **Security:** Basic XOR encryption is not secure for sensitive data.
+- **Key Space:** Limited to a single byte (0-255).
+- **Preamble:** Typically, no explicit preamble handling mentioned in the provided scripts.
 
 ## 3. Real-Time Audio Transmission
 
