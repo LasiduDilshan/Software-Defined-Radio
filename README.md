@@ -167,14 +167,6 @@ git clone https://github.com/LasiduDilshan/Software-Defined-Radio.git
 
 5. **Monitor and Analyze**: Use the GUI or command-line tools to monitor system performance, visualize signals, and analyze transmitted and received data.
 
-## Contributions
-
-Contributions to this project are encouraged! If you have ideas for improvements, bug fixes, or new features, please submit a pull request. Your contributions help make this project better for everyone.
-
-## License
-
-This project is licensed under the MIT License, allowing you to use and modify the code for your own projects. Feel free to customize and extend the functionality to suit your needs.
-
 ## Contact
 
 For any questions, suggestions, or feedback, please feel free to contact the project maintainer at dilshanlasindu0@gmail.com. Your input is highly appreciated!
